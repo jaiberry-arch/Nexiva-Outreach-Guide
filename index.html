@@ -32,7 +32,7 @@
   if (mq){ var f = function(){ if (T.mode === "auto"){ T.apply(); document.dispatchEvent(new Event("themechange")); } }; if (mq.addEventListener) mq.addEventListener("change", f); else if (mq.addListener) mq.addListener(f); }
 })();
 </script>
-<title>Ainoviq Outreach Guide</title>
+<title>AINOVIQ Outreach Guide</title>
 <meta name="robots" content="noindex, nofollow, noarchive">
 <link rel="apple-touch-icon" href="/assets/ainoviq-logo.png">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100 100%27%3E%3Crect width=%27100%27 height=%27100%27 rx=%2722%27 fill=%27%231A34D6%27/%3E%3Ctext x=%2750%27 y=%2771%27 font-family=%27Arial,sans-serif%27 font-weight=%27700%27 font-size=%2764%27 fill=%27white%27 text-anchor=%27middle%27%3EA%3C/text%3E%3C/svg%3E">
@@ -58,7 +58,7 @@ html{--ainoviq-loaded:1}
   padding-top:env(safe-area-inset-top,0px);
   padding-bottom:env(safe-area-inset-bottom,0px);
 }
-/* Ainoviq theme tokens — generated from themes.json by make-tokens-css.mjs (palette-brand). 27 tokens per theme. */
+/* AINOVIQ theme tokens — generated from themes.json by make-tokens-css.mjs (palette-brand). 27 tokens per theme. */
 :root{
   --paper:#F6F7FB;
   --surface:#FFFFFF;
@@ -153,7 +153,7 @@ html{--ainoviq-loaded:1}
   --accent-2:#4B74F6;
   color-scheme:dark;
 }
-/* Graphite: Neutral charcoal, Ainoviq blue accent */
+/* Graphite: Neutral charcoal, AINOVIQ blue accent */
 :root[data-theme="dark"][data-dark="graphite"]{
   --paper:#16171A;
   --surface:#202225;
@@ -688,7 +688,7 @@ tbody tr:hover td{background:var(--tint)}
 <body>
 <header class="top">
   <div class="top__row">
-    <div class="brand"><span class="brand__logo" role="img" aria-label="Ainoviq"></span><span>Outreach guide: LinkedIn, email and cold calls</span></div>
+    <div class="brand"><span class="brand__logo" role="img" aria-label="AINOVIQ"></span><span>Outreach guide: LinkedIn, email and cold calls</span></div>
     <div class="top__spacer"></div>
     <span class="updated">Updated 25 Sep 2026</span>
     <span class="badge">Internal: sales team only</span>
@@ -711,7 +711,7 @@ tbody tr:hover td{background:var(--tint)}
   </fieldset>
   <fieldset class="styles">
     <legend>Dark style</legend>
-      <label class="sw" style="--sw-p:#0A1030;--sw-s:#131E4A;--sw-i:#E8ECF9;--sw-a:#83A5FF"><input type="radio" name="theme-dark" value="midnight"><span class="sw__prev" aria-hidden="true"><i></i><i></i><i></i></span><span class="sw__txt"><b>Midnight</b><small>Ainoviq navy, the default</small></span></label>
+      <label class="sw" style="--sw-p:#0A1030;--sw-s:#131E4A;--sw-i:#E8ECF9;--sw-a:#83A5FF"><input type="radio" name="theme-dark" value="midnight"><span class="sw__prev" aria-hidden="true"><i></i><i></i><i></i></span><span class="sw__txt"><b>Midnight</b><small>AINOVIQ navy, the default</small></span></label>
       <label class="sw" style="--sw-p:#16171A;--sw-s:#202225;--sw-i:#E8E9ED;--sw-a:#85A7FF"><input type="radio" name="theme-dark" value="graphite"><span class="sw__prev" aria-hidden="true"><i></i><i></i><i></i></span><span class="sw__txt"><b>Graphite</b><small>Neutral charcoal, blue accent</small></span></label>
       <label class="sw" style="--sw-p:#000000;--sw-s:#0C0E15;--sw-i:#E4E6EC;--sw-a:#81A4FE"><input type="radio" name="theme-dark" value="black"><span class="sw__prev" aria-hidden="true"><i></i><i></i><i></i></span><span class="sw__txt"><b>Black</b><small>True black, made for OLED</small></span></label>
       <label class="sw" style="--sw-p:#1F2633;--sw-s:#272F3D;--sw-i:#D7DBE4;--sw-a:#86A3EF"><input type="radio" name="theme-dark" value="dimmed"><span class="sw__prev" aria-hidden="true"><i></i><i></i><i></i></span><span class="sw__txt"><b>Dimmed</b><small>Softer slate for long sessions</small></span></label>
@@ -1224,7 +1224,7 @@ const DONT_GROUP = {nbfc:"lending", bank:"lending", insurance:"insurance", payme
 
 /* =================== Glossary =================== */
 const GLOSS = [
-  ["Outbound and inbound","Outbound calls are made to customers; inbound calls come in from them. Ainoviq focuses on outbound."],
+  ["Outbound and inbound","Outbound calls are made to customers; inbound calls come in from them. AINOVIQ focuses on outbound."],
   ["EMI","The fixed monthly payment on a loan."],["Pre-due","Before a payment’s due date."],["Post-due or overdue","After a payment has been missed."],
   ["DPD","Days past due: how many days late a payment is."],["Bucket","Overdue accounts grouped by how many days late they are. The one to know first: 0–30."],["0–30 bucket","Accounts up to 30 days late. The easiest to recover."],
   ["Cure","When an overdue account pays and is back to normal."],["Roll-forward","When an overdue account slips into a later bucket."],["Promise to pay","A customer’s commitment to pay by a date."],
@@ -1327,7 +1327,7 @@ function notice(keys){
 }
 
 /* =================== Shared script pieces (one source for every tab) =================== */
-const PERMISSION = "[Name], it’s [your name] from Ainoviq. You weren’t expecting my call, so I’ll be quick, and you can tell me if it isn’t relevant.";
+const PERMISSION = "[Name], it’s [your name] from AINOVIQ. You weren’t expecting my call, so I’ll be quick, and you can tell me if it isn’t relevant.";
 function linkFor(f, u){ return (f.fits && !f.fits.includes(u.kind)) ? T(NEUTRAL_LINK, u) : cap(T(f.link, u)); }
 function openers(u){
   u = u || uc(); const f = find();
@@ -1367,8 +1367,8 @@ const ASK_INVITE = "I’ll send the invite now while we’re talking. Is there a
 const ASK_CONFIRM = "So, [day and time], and we’ll look at [their words]. Anything you’d like me to bring?";
 const EXIT = ["Thanks for being straight with me, I appreciate it. Is there anyone else at [company] who looks after outbound calls I should speak to?","Mind if I check back in a few months, in case things change?"];
 const wrongLine = (u) => T("Thanks for saying so. Who looks after {topic} at [company]? Could I mention that we spoke?", u);
-const gatekeeper = (u) => [["you","Hi, it’s [your name] from Ainoviq, calling for [Name]. Is [he or she] available?"],["they","“What is it regarding?”"],["you",T("It’s about {topic}. Would [Name] be the right person, or is there someone closer to that?", u)],["they","“Send an email.”"],["you",T("Will do, thank you. What’s the best address? And who looks after {topic} day to day, so I write to the right person?", u)]];
-const voicemail = (u) => T("Hi [Name], it’s [your name] from Ainoviq. I’m calling about {topic} at [company]. I’ll try you again on [day], or you can reach me on [number]. Again, [your name], Ainoviq, [number].", u);
+const gatekeeper = (u) => [["you","Hi, it’s [your name] from AINOVIQ, calling for [Name]. Is [he or she] available?"],["they","“What is it regarding?”"],["you",T("It’s about {topic}. Would [Name] be the right person, or is there someone closer to that?", u)],["they","“Send an email.”"],["you",T("Will do, thank you. What’s the best address? And who looks after {topic} day to day, so I write to the right person?", u)]];
+const voicemail = (u) => T("Hi [Name], it’s [your name] from AINOVIQ. I’m calling about {topic} at [company]. I’ll try you again on [day], or you can reach me on [number]. Again, [your name], AINOVIQ, [number].", u);
 const RESPONSE = [
   ["ok","Real problem","They describe it in their own words, give an example, or say it’s something they’re working on.","It’s real and it’s theirs.","Go to your value pitch."],
   ["warn","Unclear","“Sometimes.” “That’s more my colleague’s area.” “We’re looking at a few things.”","Maybe real, but vague or not theirs.","Ask for a recent example, or who owns it."],
@@ -1383,8 +1383,8 @@ const PAGES = {};
 
 PAGES.markets = () => {
   const i = IND[S.industry], u = uc(), r = reg();
-  let h = sec("What Ainoviq does");
-  h += line("Ainoviq runs AI agents that make the outbound calls a business knows it should make: reminders, collections, welcome calls, renewals, lead follow-up and retention. The agents speak the customer’s language and follow the client’s approved scripts.", "you", {nocopy:true});
+  let h = sec("What AINOVIQ does");
+  h += line("AINOVIQ runs AI agents that make the outbound calls a business knows it should make: reminders, collections, welcome calls, renewals, lead follow-up and retention. The agents speak the customer’s language and follow the client’s approved scripts.", "you", {nocopy:true});
   h += '<p class="hint">Why outbound: inbound calls defend cost, but outbound calls create revenue and recovery.</p>';
 
   h += '<div class="stage"><div class="stage__head"><span class="stage__n">1</span><span class="stage__t">Pick the industry</span><span class="stage__done">' + esc(i.name) + '</span></div>';
@@ -1544,7 +1544,7 @@ PAGES.openers = () => {
   h += '<dl class="parts">' + o.parts.map(p => '<dt>' + esc(p[0]) + '</dt><dd>' + fill(p[1]) + '</dd>').join('') + '</dl>';
   h += '<div class="tip" style="margin-top:14px">Your opener doesn’t ask any of your discovery questions. Wait for their answer, then start your questions from the Research and discovery tab.</div>';
   h += sec("Weak versus strong");
-  h += '<div class="pairs"><div class="bad"><b>Weak</b>“Hi, I hope you’re well. I’m calling from Ainoviq, we’re an AI-powered platform. Do you have 30 seconds?” It’s about us, gives no reason, and invites a no.</div><div class="good"><b>Strong</b>Your opener above: something specific about them, why it matters for their calls, and a question they can answer.</div></div>';
+  h += '<div class="pairs"><div class="bad"><b>Weak</b>“Hi, I hope you’re well. I’m calling from AINOVIQ, we’re an AI-powered platform. Do you have 30 seconds?” It’s about us, gives no reason, and invites a no.</div><div class="good"><b>Strong</b>Your opener above: something specific about them, why it matters for their calls, and a question they can answer.</div></div>';
   return h;
 };
 
