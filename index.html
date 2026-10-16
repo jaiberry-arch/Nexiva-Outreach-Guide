@@ -323,7 +323,7 @@ button,input,select,textarea{font:inherit;color:inherit}
 .top__row{display:flex;align-items:center;gap:14px;max-width:980px;margin:0 auto;padding:12px 20px 6px}
 .brand{font-family:var(--head);font-weight:900;font-size:20px;letter-spacing:-.02em}
 .brand{display:flex;align-items:center}
-.brand__logo{height:32px;width:auto;border-radius:6px;display:block}
+.brand__logo{display:block;height:22px;aspect-ratio:296/58;background:var(--ink);-webkit-mask:url(/assets/ainoviq-wordmark.png) center/contain no-repeat;mask:url(/assets/ainoviq-wordmark.png) center/contain no-repeat}
 .brand span{font-weight:500;color:var(--muted);font-size:14px;margin-left:10px;letter-spacing:0}
 .top__spacer{flex:1}
 .badge{font-family:var(--mono);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;font-weight:700;color:var(--blue);background:transparent;border:1.5px solid var(--blue);border-radius:999px;padding:4px 10px;white-space:nowrap}
@@ -688,7 +688,7 @@ tbody tr:hover td{background:var(--tint)}
 <body>
 <header class="top">
   <div class="top__row">
-    <div class="brand"><img class="brand__logo" src="/assets/ainoviq-logo.png" alt="Ainoviq" width="110" height="35"><span>Outreach guide: LinkedIn, email and cold calls</span></div>
+    <div class="brand"><span class="brand__logo" role="img" aria-label="Ainoviq"></span><span>Outreach guide: LinkedIn, email and cold calls</span></div>
     <div class="top__spacer"></div>
     <span class="updated">Updated 25 Sep 2026</span>
     <span class="badge">Internal: sales team only</span>
